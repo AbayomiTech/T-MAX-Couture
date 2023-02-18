@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: white;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding-top: 20px;
+}
+nav ul li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(145, 7, 7);
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a:hover{
+  color: blue;
+  opacity: 1;
+}
+nav .social-icons a{
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(1, 113, 11);
+  text-decoration: none;
+}
+nav .social-icons a:hover{
+  color: black;
+  opacity: 1;
+}
+header{
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1598099947145-e85739e7ca28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+background-size: cover;
+position: relative;
+}
+header .hero{
+  position: absolute;
+  left: 12%;
+  top: 100px;
+}
+header .hero h1{
+  font-size: 60px;
+  line-height: 5px;
+  font-family: tahoma;
+  color: gold;
+}
+header .hero p{
+  font-family: 'Dancing Script';
+  font-size: 20px;
+}
+header .hero p:first-child{
+  color: red;
+}
+header .hero p:last-child{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .hero .btn{
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+header .hero .btn:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+.a{
+  width: 99.3%;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fE1lbidzJTIwRmFzaGlvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  padding-left: 10px;
+  padding-top: 200px;
+}
+.b{
+  width: 400px;
+  height: 250px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpnf2wBzLGaeJUqbKrkcoNYGWKNsZmGHg4Yrod3osCkmi4bvyR9-0g_zGtiWpbjQk3oH0&usqp=CAU);
+  background-size: cover;
+}
+button{
+  border-radius: 5px;
+  color: gold;
+  background-color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+button:hover{
+  box-shadow: 2px 2px 2px grey;
+}
+.a h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  padding-right: px;
+  padding-top: 15px;
+}
+.c{
+  width: 99.3%;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/flagged/photo-1570733117311-d990c3816c47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  padding-left: 10px;
+  padding-top: 200px;
+  background-size: cover;
+}
+.d{
+  width: 400px;
+  height: 250px;
+  background-image: url(https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+}
+.c h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  padding-right: px;
+  padding-top: px;
+}
+.e{
+  width: 99.3%;
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1611428813653-aa606c998586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80);
+  background-size: 90%;
+  padding-left: 10px;
+  padding-top: 200px;
+}
+.f{
+  width: 400px;
+  height: 250px;
+  background-image: url(https://thumbs.dreamstime.com/b/cute-fashion-kids-standing-together-white-background-fashionable-friendship-concept-40020637.jpg);
+  background-size: cover;
+}
+.e h1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  padding-right: px;
+  padding-top: 20px;
+}
